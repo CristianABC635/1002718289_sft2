@@ -1,0 +1,8 @@
+services:
+  punto_4:
+    build: .
+    container_name: ContenedorParcial
+    ports:
+     - "5005:5009"
+    volumes:
+      - .:/app  
